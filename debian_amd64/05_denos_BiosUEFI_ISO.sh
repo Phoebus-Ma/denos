@@ -52,10 +52,10 @@ xorriso \
     -eltorito-alt-boot \
     -e EFI/efiboot.img \
     -no-emul-boot \
-    -append_partition 2 0xef ${HOME}/$LIVE_BOOT/scratch/efiboot.img \
-    -output "${HOME}/$LIVE_BOOT/$DISTRO_NAME-$VERSION.iso" \
+    -append_partition 2 0xef ${PWD}/$LIVE_BOOT/scratch/efiboot.img \
+    -output "${PWD}/$LIVE_BOOT/$DISTRO_NAME-$VERSION.iso" \
     -graft-points \
-        "${HOME}/$LIVE_BOOT/image" \
+        "${PWD}/$LIVE_BOOT/image" \
         /boot/grub/bios.img=$PWD/$LIVE_BOOT/scratch/bios.img \
         /EFI/efiboot.img=$PWD/$LIVE_BOOT/scratch/efiboot.img
 
