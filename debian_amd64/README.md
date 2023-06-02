@@ -24,7 +24,7 @@ $ ./03_denos_chroot_xfce.sh
 - Step 4.Make squashfs
 
 ```bash
-$ ./04_04_denos_MakeSquashfs.sh
+$ ./04_denos_MakeSquashfs.sh
 ```
 
 - Step 5.Generate ISO

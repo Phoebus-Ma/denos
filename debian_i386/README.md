@@ -1,15 +1,6 @@
-## denos
-
-Automatically build Linux distributions.
 
 
 ### How to build
-
-Example for debian_amd64:
-
-```bash
-$ cd debian_amd64/
-```
 
 - Step 1.Install Software Package
 

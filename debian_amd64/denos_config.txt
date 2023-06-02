@@ -1,4 +1,4 @@
-LIVE_BOOT=../output
+LIVE_BOOT=../output/amd64
 DISTRO_NAME=DenOS
 DISTRO_HOSTNAME=Denos
 VERSION=1.0
